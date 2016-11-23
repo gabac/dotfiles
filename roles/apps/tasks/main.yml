@@ -47,7 +47,6 @@
     - 975937182 # Fantastical 2
     - 407963104 # Pixelmator
     - 557168941 # Tweetbot
-    - 293523031 # Sonos
     - 409183694 # Keynote
     - 409201541 # Pages
     - 409203825 # Numbers
@@ -80,11 +79,12 @@
     - vlc
     - sts
     - webstorm
-    - slack-beta
+    - slack
     - caffeine
     - android-studio
     - catch
     - transmission
+	  - sonos
 
 - name: install pip packages
   pip: name={{ item }} state=present
